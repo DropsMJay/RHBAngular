@@ -1,0 +1,137 @@
+/* You can add global styles to this file, and also import other style files */
+/*
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+*/
+
+
+/*Font things*/
+
+@font-face
+{
+    font-family: Caviar Dreams;
+    src: url(assets/fonts/Caviar/CaviarDreams.ttf) format("truetype");
+}
+
+h3
+{
+    font-family: 'Caviar Dreams', sans-serif;
+    font-weight: bold;
+}
+
+h4
+{
+    font-family: 'Caviar Dreams', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h5
+{
+    font-family: 'Caviar Dreams', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+h6
+{
+    font-family: 'Caviar Dreams', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+/* Solid border */
+hr.solid
+{
+    height: 1px;
+    border-color: black;
+    background-color: black;
+}
+
+.verticalLine
+{
+    height: 1px;
+    border-color: black;
+    background-color: black;
+}
+
+/* Hyperlink */
+a
+{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover
+{   
+    color: grey;
+    text-decoration: none;
+}
+
+/*Colored Squares*/
+
+.squareRed
+{
+    height: 20px;
+    width: 20px;
+    background-color: red;
+}
+
+.squareBlue
+{
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+}
+
+.squareYellow
+{
+    height: 20px;
+    width: 20px;
+    background-color: yellow;
+}
+
+/* Buttons */
+
+.button
+{
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'Caviar Dreams', sans-serif;
+    font-weight: bold;
+}
+
+.buttonBuy
+{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}
+
+.buttonSignUp
+{
+    background-color: white; 
+    color: black; 
+    border: 2px solid red;
+}
+
+.buttonSignUp:hover
+{
+    background-color: red;
+    color: white;
+}
+
+.buttonBuy:hover
+{
+    background-color: #4CAF50;
+    color: white;
+}
