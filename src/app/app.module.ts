@@ -17,6 +17,7 @@ import { OmegaComponent } from './omega/omega.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { SigninComponent } from './signin/signin.component';
 import { LoginComponent } from './login/login.component';
+import { CategoriesComponent } from './categories/categories.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { LoginComponent } from './login/login.component';
     OmegaComponent,
     AboutusComponent,
     SigninComponent,
-    LoginComponent
+    LoginComponent,
+    CategoriesComponent
   ],
   imports: [
     BrowserModule,
