@@ -35,7 +35,7 @@ function EmailCheck ()
 
 //SSN Validation
 
-function SSNCheck()
+function CPFCheck()
 {
   var Number
   var Position
